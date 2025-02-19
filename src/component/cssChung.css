@@ -6,6 +6,20 @@ input{
     border-radius: 5px;
 }
 
+.radioBtn{
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+}
+#opCssChung{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.opCss{
+    display: flex;
+    align-items: center;
+}
 #tinhtoanbtn{
     margin: 10px;
     height: 50px;
