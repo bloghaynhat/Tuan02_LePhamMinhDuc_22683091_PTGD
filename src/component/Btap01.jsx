@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import "./cssChung.css"
 
 function Btap01() {
     const [result, setResult] = useState(0);
@@ -12,10 +13,12 @@ function Btap01() {
 
     return ( <div>
         <input placeholder="Nhap so thu nhat" type="text" name="" id="inputA" />
+        <span>+</span>
         <input placeholder="Nhap so thu hai" type="text" name="" id="inputB" />
+        <span> = </span>
+        <span>{result}</span>
         
-        <button onClick={handleClick}>Tinh toan</button>
-        <span>Ket qua: {result}</span>
+        <button onClick={handleClick} id="tinhtoanbtn">Tinh toan</button>
     </div> );
 }
 

@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <Btap02></Btap02>
+      <Btap01></Btap01>
     </>
   )
 }
