@@ -5,12 +5,13 @@ import './App.css'
 import Btap01 from './component/Btap01'
 import Btap02 from './component/Btap02'
 import Btap03 from './component/Btap03'
+import Btap04 from './component/Btap04'
 
 function App() {
 
   return (
     <>
-      <Btap03></Btap03>
+      <Btap04></Btap04>
     </>
   )
 }
