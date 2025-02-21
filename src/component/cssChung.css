@@ -50,3 +50,29 @@ input {
   font-size: 24px;
   font-weight: bold;
 }
+
+#input_bai5 {
+  width: 240px;
+  height: 30px;
+}
+
+ol {
+  list-style-type: none;
+}
+
+li {
+  padding: 7px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin: 10px;
+  color: black;
+  border-radius: 12px;
+  font-size: large;
+  width: 600px;
+}
+
+#btn_bai5 {
+  background-color: red;
+}
