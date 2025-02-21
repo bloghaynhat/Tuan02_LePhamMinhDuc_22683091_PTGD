@@ -1,29 +1,52 @@
-input{
-    height: 20px;
-    width: 120px;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px;
+input {
+  height: 20px;
+  width: 120px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
 }
 
-.radioBtn{
-    margin: 0px;
-    padding: 0px;
-    width: 50px;
+.radioBtn {
+  margin: 0px;
+  padding: 0px;
+  width: 50px;
 }
-#opCssChung{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+#opCssChung {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.opCss{
-    display: flex;
-    align-items: center;
+
+.opCss {
+  display: flex;
+  align-items: center;
 }
-#tinhtoanbtn{
-    margin: 10px;
-    height: 50px;
-    width: 120px;
-    padding: 10px 15px;
-    background-color: green;
+
+#tinhtoanbtn {
+  margin: 10px;
+  height: 50px;
+  width: 120px;
+  padding: 10px 15px;
+  background-color: green;
+}
+
+#content_bai4 {
+  margin: 20px;
+  padding: 20px;
+  border: solid 1px white;
+  border-radius: 10px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+.button_bai4 {
+  margin: 10px;
+  padding: 12px;
+  font-size: 24px;
+  font-weight: bold;
 }
